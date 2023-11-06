@@ -1,0 +1,88 @@
+body{
+    background-color: #23272A !important;
+    color: whitesmoke !important;
+    height: 2000px;
+  
+}
+
+#menu {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5865F2;
+}
+
+a {
+
+    text-decoration: none !important;
+    text-align: center !important;
+    font-size: 20px;
+    color: whitesmoke !important;
+    display: inline-block; 
+    transition: .2s;
+}
+
+a:hover{
+
+    transform: scale(1.05);
+    }
+
+section.topo-do-site{
+padding: 40px 4%;
+}
+
+.flex{
+
+    display: flex;
+}
+
+section.topo-do-site .flex{
+
+align-items: center;
+justify-content: center;
+gap: 90px;
+
+}
+
+.topo-do-site h1{
+
+    color: #fff;
+    font-size: 60px;
+}
+
+.topo-do-site .txt-topo-site h1  span{
+
+    color: aqua;
+    font-size: 82px;
+}
+
+.topo-do-site .txt-topo-site p{
+
+    margin: 40px 0;
+    font-size: 28px;
+}
+
+.topo-do-site .img-topo-site img{
+
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+
+
+
+@keyframes flutuar {
+    
+    0%{
+
+        top: 0;
+
+    }
+    100%{
+
+        top: 30px;
+    }
+}
